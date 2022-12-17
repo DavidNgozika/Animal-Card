@@ -34,6 +34,25 @@ body {
     padding: 1.2rem;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-details {
+    display: none;
+    position: absolute;
+    background-color: #ccc;
+    padding: 10px 12px;
+    min-width: 450px;
+    box-sizing: 0 7px 15px 0 rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-details {
+    display: block;
+}
+
 @media only screen and (min-width: 600px) {
     .card {
         width: 75vw;
