@@ -29,6 +29,16 @@ body {
     border-radius: 2px 2px 0 0;
 }
 
+/* .main-par {
+    background-color: navy;
+    color: white;
+} */
+
+.sec-part {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
 .img-caption {
     text-align: center;
     font-size: 1.5rem;
